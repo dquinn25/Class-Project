@@ -1,14 +1,14 @@
 var response = prompt('do you know what branch of the military you want to join?');
 var message ;
 
-if (response === 'navy'){
-    message = 'check out these links' ;
+if (response === 'marines'){
+    message = 'scroll down to the 2nd link' ;
 } else if (response === 'army'){
-    message = 'check out these links' ;
+    message = 'check out the first option' ;
 } else if (response === 'navy'){
-    message = 'check out these links' ;
+    message = 'scroll down to the 3rd option' ;
 } else if (response === 'airforce'){
-    message = 'check out these links' ;
+    message = 'scroll down to the last option' ;
 } else {
     message = "" ;
 }
