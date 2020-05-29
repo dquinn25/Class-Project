@@ -1,7 +1,7 @@
-var = prompt('do you prefer dogs, cats, or both?');
+var = prompt('do you know what branch of the military you want to join?');
 var message;
 
-if (response === 'dogs'){
+if (response === 'navy'){
     message = 'I Love Dogs' ;
 } else if (response === 'cats'){
     message = 'Cats are Grrrreat!'
