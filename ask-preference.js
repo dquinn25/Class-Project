@@ -1,14 +1,16 @@
-var = prompt('do you know what branch of the military you want to join?');
-var message;
+var response = prompt('do you know what branch of the military you want to join?');
+var message ;
 
 if (response === 'navy'){
-    message = 'I Love Dogs' ;
-} else if (response === 'cats'){
-    message = 'Cats are Grrrreat!'
-} else if (response === 'both'){
-    message = 'HURRAY! I like both also!'
+    message = 'check out these links' ;
+} else if (response === 'army'){
+    message = 'check out these links' ;
+} else if (response === 'navy'){
+    message = 'check out these links' ;
+} else if (response === 'airforce'){
+    message = 'check out these links' ;
 } else {
-    message = 'Ok, do you like annimals?'
+    message = "" ;
 }
 
 document.write('<h2>' + message + '</h2>');
