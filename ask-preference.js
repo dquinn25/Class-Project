@@ -9,8 +9,9 @@ if (response === 'marines'){
     message = 'scroll down to the 3rd option' ;
 } else if (response === 'airforce'){
     message = 'scroll down to the last option' ;
-} else {
-    message = "" ;
+} else { 
+    message = 'Ok here are some options unless you wanted coast guard';
 }
+  
 
-document.write('<h2>' + message + '</h2>');
+return document.write('<h2>' + message + '</h2>');
