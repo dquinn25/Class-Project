@@ -31,7 +31,7 @@ ul{
   }  
 
 #army {
-  background-color: green;
+  background: grey;
 }
 
 #marines {
@@ -51,7 +51,11 @@ ul{
 }
 
 #army img {
-  width: 300px;
+  width: 400px;
+}
+
+#marines img {
+  width: 400px;
 }
 
 header nav img {
